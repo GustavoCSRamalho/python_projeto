@@ -78,6 +78,7 @@ duplicado quando o mesmo erro aconteçer em outro lugar.
 ## 4.3
 * Uma maneira de documentar a api seria utilizando o swagger, nele como
     você consegue demostrar o nome da rota, os parametros necessarios para envio,
-    metodo de envio, corpo, informações no header como o token para a autenticação.
+    metodo de envio, corpo, informações no header como o token para a autenticação e
+    descrever oque cada rota faz. 
 > Exemplo :
 * https://app.swaggerhub.com/apis-docs/milenarx/pyhton_projeto/1.0.0
