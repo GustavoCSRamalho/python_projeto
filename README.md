@@ -71,7 +71,7 @@ duplicado quando o mesmo erro aconteçer em outro lugar.
 > Antes de executar o projeto instale esses frameworks se não tiver :
 * flask
 * peewee 
-> Para executar o projeto, execute o comando dentro da pasta miniProjeto.
+> Para executar o projeto, execute o comando abaixo dentro da pasta miniProjeto.
 * python run.py
 > Foi utilizado o python 2.7 para a realização do projeto.
 
