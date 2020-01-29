@@ -68,7 +68,9 @@ duplicado quando o mesmo erro aconteçer em outro lugar.
 > Para visualizar os dados no banco de dados, foi utilizado o sqlitebrowser no ubuntu, para instalar use o comando abaixo:
 * sudo apt-get install sqlitebrowser
 * Para usar, digite sqlitebrowser e abra o arquivo com a extensão .db
-> Antes de executar o projeto certifique-se de que tenha o flask e o peewee instalado.
+> Antes de executar o projeto instale esses frameworks se não tiver :
+* flask
+* peewee 
 > Para executar o projeto, execute o comando
 * python run.py
 > Foi utilizado o python 2.7 para a realização do projeto.
