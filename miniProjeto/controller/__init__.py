@@ -5,7 +5,7 @@ def create_app():
     app = Flask(__name__)
     database = Database()
 
-    @app.route('/api/v1.0/execution/all/<int:page_id>', methods=['GET'])
+    @app.route('/api/v0.0.1/execution/all/<int:page_id>', methods=['GET'])
     def allExecution(page_id):
         try:
             data = database.getAllExecution(page_id)
@@ -14,7 +14,7 @@ def create_app():
         
         return jsonify(data), 200
 
-    @app.route('/api/v1.0/execution/<int:execution_id>', methods=['GET'])
+    @app.route('/api/v0.0.1/execution/<int:execution_id>', methods=['GET'])
     def allExecutionItem(execution_id):
         try:
             data = database.getAllExecutionItem(execution_id)
@@ -22,7 +22,7 @@ def create_app():
             return jsonify({}), 400
         return jsonify(data), 200
 
-    @app.route('/api/v1.0/execution', methods=['POST'])
+    @app.route('/api/v0.0.1/execution', methods=['POST'])
     def allExecutionItema():
         body = {
             'input':request.json['input'],

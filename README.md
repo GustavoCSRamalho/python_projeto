@@ -3,7 +3,7 @@
 
 # Documentação:
 > Segue o link do swagger com a documentação das rotas.
-* https://app.swaggerhub.com/apis-docs/milenarx/pyhton_projeto/1.0.0
+* https://app.swaggerhub.com/apis-docs/milenarx/pyhton_projeto/0.0.1
 
 # Exercicio 1:
 ## 1.1
@@ -81,4 +81,4 @@ duplicado quando o mesmo erro aconteçer em outro lugar.
     metodo de envio, corpo, informações no header como o token para a autenticação e
     descrever oque cada rota faz. 
 > Exemplo :
-* https://app.swaggerhub.com/apis-docs/milenarx/pyhton_projeto/1.0.0
+* https://app.swaggerhub.com/apis-docs/milenarx/pyhton_projeto/0.0.1
